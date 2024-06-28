@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 using namespace std;
 
 class RBI
@@ -21,10 +21,17 @@ class pnb:public RBI
     {
      cout<<"pnb costumer\n";
     }
+
 };
 
 int main()
 {
     RBI *p;
-    RBI
+    RBI pp;
+    axis ax;
+    p=&ax;
+   // pnb pn;
+   // p=&pn;
+
+    p->loan();
 }
