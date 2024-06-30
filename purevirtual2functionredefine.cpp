@@ -4,7 +4,7 @@ using namespace std;
 class rbi
 {
     public:virtual void loan()=0;
-    void mag()
+    void msg()
     {
         cout<<"Rbi\n";
     }
