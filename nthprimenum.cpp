@@ -25,10 +25,8 @@ int main() {
                         cout << a[top];
                         break;
                     }
-
                 }
-
-            }
+                  }
         }
   }
     return 0;
