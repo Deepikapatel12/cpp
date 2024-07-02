@@ -1,10 +1,5 @@
 #include<iostream>
 using namespace std;
-//SINGLE THREAAD
-
-//main function is called single thread
-#include<iostream>
-using namespace std;
 //MILTI THREAD
 #include<thread>
 void even(int s,int e)
@@ -29,6 +24,13 @@ void odd(int s, int e)
 }
 int main()
 {
-    even(1,1000);
-    odd(1,1000);
+    thread t(even,1,1000);//thread is a class name it is compulsary to write thread
+    thread t1(odd,1,1000);
+    t.join();
+    t1.join();
+    if(t1.joinable())//to stop system error join any function to write that
+    {
+        t1.join();
+    }
+    cout<<"DONE";
 }
