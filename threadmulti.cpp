@@ -2,6 +2,7 @@
 using namespace std;
 //MILTI THREAD
 #include<thread>
+//to use thread include thread class
 void even(int s,int e)
 {
     for(s;s<=e;s++)
