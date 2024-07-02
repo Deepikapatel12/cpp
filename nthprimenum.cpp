@@ -13,7 +13,6 @@ int main() {
     } else {
         for (int i = 5; i <= 10001; i+= 2) {
             for (int j = 0; j <= top; j++) {
-
                 if (i % a[j] != 0) {
                     count++;
                 }
@@ -29,4 +28,3 @@ int main() {
   }
     return 0;
 }
-
