@@ -16,7 +16,6 @@ int main() {
 
                 if (i % a[j] != 0) {
                     count++;
-
                 }
                 if (count == (top + 1)) {
                     a[++top] = i;
