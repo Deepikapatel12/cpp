@@ -10,12 +10,13 @@
  price :
     */
 
+
     #include<iostream>
     using namespace std;
 
     class shop
     {
-       int itemno[5],price[5],count;
+       int itemno[5],price[5],count=0;
        public:void items()
        {
            if(count<5){
@@ -44,10 +45,10 @@
        }
        void allitems()
        {
-   // for(int i=0;i<count;i++)
+    //for(int i=0;i<count;i++)
     //{
         cout<<"All items"<<itemno[count]<<"All price"<<price[count];
-    //}
+    // }
        }
        void totalitems()
        {

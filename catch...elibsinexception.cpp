@@ -6,9 +6,9 @@ int main()
     int a,b,c;
     cout<<"address of c="<<&c;
     try{
-    cout<<"enter 1 no\n";
+    cout<<"\nenter 1 no\n";
     cin>>a;
-    cout<<"enter 2 no\n";
+    cout<<"\nenter 2 no\n";
     cin>>b;
     if(b==0)
     {
@@ -18,7 +18,7 @@ int main()
     }
     catch(...)
     {
-        cout<<"there is a system problem";
+        cout<<"there is a system problem\n";
     }
     cout<<"done";
 }

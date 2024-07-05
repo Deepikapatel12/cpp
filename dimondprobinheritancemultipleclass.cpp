@@ -10,7 +10,7 @@ class tenth
 };
 class twelth
 {
-    public:frnd10()
+    public:frnd12()
     {
         cout<<"Friend  of 12th =70%"<<"\n";
     }
