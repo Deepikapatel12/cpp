@@ -174,7 +174,7 @@ int main()
     p.show();
 }
 */
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 class fib
 {
@@ -197,5 +197,5 @@ class fib
 int main()
 {
     fib f(5);
-}
+}*/
 
